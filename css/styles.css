@@ -1,0 +1,192 @@
+body{
+    font-family: "Roboto", sans-serif;
+    color: #2E2F42;;
+    
+}
+
+/*  ul{list-style: none;}  Забере крапочки при списках ul*/
+/* "class": text-decoration: none;  Забере підкреслення*/
+
+.button-font-family {
+    font-family: inherit
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1,5;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #4D5AE5;}
+.button-font-family:hover {color: #4D5AE5;} 
+
+.button-all {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1,5;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+ }  .button-all:hover {color: #4D5AE5;} 
+
+.button-cursor, .link-cursor{
+    cursor: pointer;
+}
+
+/* HEADER */
+/* header logo */
+.logo-webstudio {
+    font-family: 'Raleway';
+font-weight: 800;
+font-size: 18px;
+line-height: 1,17;
+}
+
+.first-part-logo-header {
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1,17;
+    color: #4D5AE5;
+}
+    .second-part-logo-header {
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 1,17;
+        color: #2E2F42;}
+.first-part-logo-header:hover {color: #4D5AE5;} 
+.second-part-logo-header:hover {color: #4D5AE5;}
+
+/* header link */
+.header-link {font-weight: 500;
+    font-size: 16px;
+    line-height: 1,5;
+    color: #2E2F42;
+    letter-spacing: 0.02em;
+}
+.header-link:hover{color: #4D5AE5;}
+/* header address link */
+    .address-link {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1,5;
+        color: #434455;
+        letter-spacing: 0.02em;}
+        .address-link:hover {color: #4D5AE5;}
+
+        /* MAIN CONTENT */
+        /* main hero - Section 1*/
+.hero {background: #2E2F42;}
+.hero-title { font-weight: 700;
+    font-size: 56px;
+    line-height: 1,07;
+        text-align: center;
+    letter-spacing: 0.02em; 
+    color: #ffffff;}
+
+    .hero-button {
+        font-family: inherit;
+font-weight: 500;
+font-size: 16px;
+line-height: 1,5;
+color: #FFFFFF;
+background: #4D5AE5;
+cursor: pointer;
+    }
+    .hero-button:hover {color: #4D5AE5;}
+
+    /* Featurs - Section 2 */
+.featurs-title {
+}
+
+.featurs-names {  font-weight: 500;
+    font-size: 20px;
+    line-height: 1,2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;}
+
+.featurs-text {
+    font-size: 16px;
+line-height: 1,5;
+letter-spacing: 0.02em;
+color: #434455;}
+
+/* Work - What are we doing - Section 3 */
+.work-title {font-weight: 700;
+    font-size: 36px;
+    line-height: 1,11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2E2F42;}
+
+/* About us - Section 4 */
+.about-title {font-weight: 700;
+    font-size: 36px;
+    line-height: 1,11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2E2F42;}
+
+    .names-of-workers {font-weight: 500;
+        font-size: 20px;
+        line-height: 1,2;
+        text-align: center;
+        letter-spacing: 0.02em;
+        color: #2E2F42;
+        }
+    .work-position {font-size: 16px;
+        line-height: 1,5;
+        text-align: center;
+        letter-spacing: 0.02em;
+        color: #434455;
+        }
+
+/* Footer */
+footer{
+    
+
+background: #2E2F42;
+}
+
+.footer-text {
+    color: #F4F4FD
+    ;
+}
+.first-part-logo-footer {
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1,17;
+    color: #4D5AE5;
+}
+
+.second-part-logo-footer {font-weight: 800;
+    font-size: 18px;
+    line-height: 1,17;
+    
+    color: #F4F4FD}
+
+
+    /* Portfolio Main  */
+.portfolio-hero-section {}
+
+/* "button" on the top of css-code */
+
+
+.portfolio-product-title {font-weight: 500;
+    font-size: 20px;
+    line-height: 1,2;
+    letter-spacing: 0.02em;
+    
+    color: #2E2F42;}
+
+.portfolio-product-description {
+    font-size: 16px;
+line-height: 1,5;
+letter-spacing: 0.02em;
+color: #434455;
+}
