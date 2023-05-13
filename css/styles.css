@@ -140,15 +140,15 @@ color: var(--featurs-section-text-color);}
     background: #F4F4FD;
 }
 .about-title {font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
+    font-size: 36px;
+    line-height: 1.11;
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: var(--about-us-title-color)}
     
 
-    .names-of-workers {font-weight: 500;
+    .name-of-workers {font-weight: 500;
         font-size: 20px;
         line-height: 1.2;
         text-align: center;
