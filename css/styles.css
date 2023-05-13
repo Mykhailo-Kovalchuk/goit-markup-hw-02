@@ -21,6 +21,7 @@ body{
     --work-title-color: #2E2F42;
 
     --about-us-color: #2E2F42;
+    --about-us-title-color: #2e2f42;
     --about-us-position-color: #434455;
 
     --footer-background-color: #2e2f42;
@@ -106,8 +107,8 @@ background: #4D5AE5;
 cursor: pointer;
 letter-spacing: 0.04em
     }
-    .hero-button:hover {color: #404BBF ;}
-    .hero-button:focus {color: #404BBF ;}
+    .hero-button:hover {background-color: #404BBF;}
+    .hero-button:focus {background-color: #404BBF;}
 
     /* Featurs - Section 2 */
 .featurs-title {
@@ -138,13 +139,14 @@ color: var(--featurs-section-text-color);}
 .about-us {
     background: #F4F4FD;
 }
-.about-title {font-weight: 700;
-    font-size: 36px;
-    line-height: 1.11;
+.about-title {font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    color: var(--about-us-color)}
+    color: var(--about-us-title-color)}
+    
 
     .names-of-workers {font-weight: 500;
         font-size: 20px;
@@ -169,7 +171,7 @@ color: var(--featurs-section-text-color);}
 .footer {background: var(--footer-background-color);
 }
 .logo-webstudio-footer {
-    font-family: "Raleway";
+    font-family: "Raleway", sans-serif;
 font-weight: 800;
 font-size: 18px;
 line-height: 1.17;
@@ -196,8 +198,7 @@ color: var(--logo-color);}
 
 /* buttons of portfolio */
 .button-font-family {
-    font-family: inherit
-
+    font-family: inherit;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -206,8 +207,7 @@ color: var(--logo-color);}
     text-align: center;
     letter-spacing: 0.04em;
     color: var(--portfolio-buttons-color);
-    background-color: var(--portfolio-buttons-background-color);
-}
+    background-color: var(--portfolio-buttons-background-color);}
 .button-font-family:hover {color: #ffffff;
 background-color: #404BBF;} 
 .button-font-family:focus {color: #ffffff;
@@ -216,7 +216,7 @@ background-color: #404BBF;}
 .button-cursor, .link-cursor{
     cursor: pointer;}
 
-
+   /* Photo products */
 .portfolio-product-title {
     font-weight: 500;
     font-size: 20px;
