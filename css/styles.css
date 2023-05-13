@@ -7,34 +7,7 @@ body{
 /*  ul{list-style: none;}  Забере крапочки при списках ul*/
 /* "class": text-decoration: none;  Забере підкреслення*/
 
-.button-font-family {
-    font-family: inherit
 
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1,5;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.04em;
-    color: #4D5AE5;}
-.button-font-family:hover {color: #4D5AE5;} 
-
-.button-all {
-    font-family: inherit;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1,5;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.04em;
-    color: #ffffff;
- }  .button-all:hover {color: #4D5AE5;} 
-
-.button-cursor, .link-cursor{
-    cursor: pointer;
-}
 
 /* HEADER */
 /* header logo */
@@ -51,12 +24,14 @@ line-height: 1,17;
     line-height: 1,17;
     color: #4D5AE5;
 }
+.first-part-logo-header:hover {color: #4D5AE5;} 
+
     .second-part-logo-header {
         font-weight: 800;
         font-size: 18px;
         line-height: 1,17;
         color: #2E2F42;}
-.first-part-logo-header:hover {color: #4D5AE5;} 
+
 .second-part-logo-header:hover {color: #4D5AE5;}
 
 /* header link */
@@ -124,6 +99,9 @@ color: #434455;}
     color: #2E2F42;}
 
 /* About us - Section 4 */
+.about-us {
+    background: #F4F4FD;
+}
 .about-title {font-weight: 700;
     font-size: 36px;
     line-height: 1,11;
@@ -174,7 +152,37 @@ background: #2E2F42;
     /* Portfolio Main  */
 .portfolio-hero-section {}
 
-/* "button" on the top of css-code */
+
+/* buttons of portfolio */
+.button-font-family {
+    font-family: inherit
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1,5;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #4D5AE5;}
+
+.button-font-family:hover {color: #4D5AE5;} 
+
+.button-all {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1,5;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+ }  .button-all:hover {color: #4D5AE5;} 
+
+.button-cursor, .link-cursor{
+    cursor: pointer;
+}
 
 
 .portfolio-product-title {font-weight: 500;
